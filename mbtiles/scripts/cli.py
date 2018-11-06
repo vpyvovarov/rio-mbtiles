@@ -136,8 +136,8 @@ def mbtiles(ctx, files, output, overwrite, title, description,
             'driver': img_format.upper(),
             'dtype': 'uint8',
             'nodata': 0,
-            'height': 256,
-            'width': 256,
+            'height': 512,
+            'width': 512,
             'count': 3,
             'crs': TILES_CRS})
 
